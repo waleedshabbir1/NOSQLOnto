@@ -529,13 +529,13 @@ rdf:resource rdf:type owl:AnnotationProperty .
            rdfs:subClassOf :KeyValue .
 
 
-###  http://purl.org/vocab/vann/N1QL
+###  http://purl.org/db/nosql#N1QL
 <http://purl.org/vocab/vann/N1QL> rdf:type owl:Class ;
                                   rdfs:subClassOf :QueryLanguage ;
                                   rdfs:comment "Query language (SQL-like) used to interact with a Couchbase database."^^xsd:string .
 
 
-###  http://purl.org/vocab/vann/Properties
+###  http://purl.org/db/nosql#Properties
 <http://purl.org/vocab/vann/Properties> rdf:type owl:Class .
 
 
