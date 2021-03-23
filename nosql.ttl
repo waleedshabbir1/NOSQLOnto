@@ -121,6 +121,7 @@ rdf:resource rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/db/nosql#store
 :store rdf:type owl:ObjectProperty ;
+       rdf:label "Store"; 
        rdfs:range :Store .
 
 
