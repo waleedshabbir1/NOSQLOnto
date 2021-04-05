@@ -16,7 +16,7 @@
                             <http://purl.org/dc/elements/1.1/title> "Vocabulary about NOSQL stores"@en ;
                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "nosql"^^xsd:string ;
                             <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/db/nosql#"^^xsd:string ;
-                            rdfs:comment "Version 0.1: first publication"^^xsd:string ;
+                            rdfs:comment "Version 0.1: 1st publication"^^xsd:string ;
                             owl:versionInfo "0.1"^^xsd:string .
 
 #################################################################
