@@ -51,7 +51,6 @@ rdf:resource rdf:type owl:AnnotationProperty .
 ###  http://purl.org/db/nosql#compliesWith
 :compliesWith rdf:type owl:ObjectProperty ;
               rdfs:domain :Store ;
-              rdfs:range :Properties ;
               rdfs:comment "Tell which database is compliant with which properties, like relational database with ACID properties, or NOSQL wirh BASE properties."@en .
 
 
