@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/db/nosql#> .
+
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -51,6 +51,7 @@ rdf:resource rdf:type owl:AnnotationProperty .
 ###  http://purl.org/db/nosql#compliesWith
 :compliesWith rdf:type owl:ObjectProperty ;
               rdfs:domain :Store ;
+              rdfs:range :Properties ;
               rdfs:comment "Tell which database is compliant with which properties, like relational database with ACID properties, or NOSQL wirh BASE properties."@en .
 
 
